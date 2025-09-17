@@ -1,0 +1,35 @@
+{
+    "name": "bdmotaleb/event-api-client",
+    "description": "Lightweight PHP client for sending events to external API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["api", "client", "events", "tracking", "analytics"],
+    "authors": [
+        {
+            "name": "bdmotaleb",
+            "email": "your-email@example.com"
+        }
+    ],
+    "homepage": "https://github.com/bdmotaleb/event-api-client",
+    "support": {
+        "issues": "https://github.com/bdmotaleb/event-api-client/issues",
+        "source": "https://github.com/bdmotaleb/event-api-client"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bdmotaleb\\EventApiClient\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {},
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
+
